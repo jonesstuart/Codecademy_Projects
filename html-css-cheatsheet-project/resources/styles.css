@@ -1,0 +1,99 @@
+body {
+    color: white;
+    background-color: black;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 5.5em;
+    font-weight: 700;
+    text-align: center;
+    margin: 10px;
+    background: rgb(0,82,255);
+    background: linear-gradient(6deg, rgba(0,82,255,1) 0%, rgba(222,31,255,1) 46%, rgba(255,252,0,1) 82%);
+    background-clip: text;
+    color: transparent;
+}
+
+h2 {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 10px;
+    color:hsla(0, 100%, 100%, 0.5)
+}
+
+#tables h2 {
+	font-size: 1.5em;
+}
+
+h3 {
+	font-size: 1em;
+	text-align: center;
+}
+
+header {
+	margin: 30px;
+}
+
+nav {
+	text-align: center;
+}
+
+section {
+	margin: 30px;
+	text-align: center;
+}
+
+figure {
+	width: 300px;
+	display: inline-block;
+	margin: 20px;
+	text-align: center;
+	line-height: 1.25em;
+	vertical-align: top;
+}
+
+table {
+	width: 300px;
+	display: inline-block;
+	margin: 20px;
+	
+}
+
+table, th, td {
+	border: 2px solid grey;
+	width: auto;
+	padding: 5px 20px;
+}
+
+th {
+	font-size: 1.25em;
+	font-weight: 600;
+}
+
+footer {
+    padding: 20px 100px;
+    font-size: small;
+    font-weight: 100;
+    text-align: right;
+    background: rgb(49,63,135);
+    background: radial-gradient(circle, rgba(49,63,135,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+nav a {
+	color: white;
+	padding: 0px 50px;
+	margin: 30px;
+	border-left: 2px solid hsla(0, 100%, 100%, 0.5);
+	border-right: 2px solid hsla(0, 100%, 100%, 0.5);
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: aqua;
+}
+
+.return {
+	color: aqua;
+	text-decoration: none;
+}
