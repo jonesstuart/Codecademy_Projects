@@ -3,7 +3,7 @@ In the code editor, we have provided you with the starting code for a Book Finde
 
 Your task is to finish building the application by completing the function definitions for the captureSearchValue(), filterBooks(), structureBooksAsHtml(), and searchBtnClickHandler() functions. You should only make edits to these four function definitions within script.js. We’ve defined helper functions in helper.js that you will need to use as you build out your program.
 
-----------
+---------- 
 
 Test Cases
 The captureSearchValue function captures the search bar input value and returns it.
